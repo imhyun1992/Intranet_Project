@@ -1,0 +1,122 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>1조 팀프로젝트</title>
+    <link rel="icon" href="./images/apple.png">
+
+    <link rel="stylesheet" href="css/tjeoun_reset.css">
+    <link rel="stylesheet" href="css/tjoeun_main.css">
+    <link rel="stylesheet" href="css/tjoeun_layout.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/tjeoun_menu.js" defer="defer"></script>
+</head>
+
+<body>
+    <!-- haeder start -->
+    <header>
+        <h1><a href="#">TJ INTRANET</a></h1>
+        <ul>
+            <li>회사이름 : 부서명 - 이름(사원번호) 로그아웃 / 시간연장</li>
+        </ul>
+    </header>
+    <!-- header end -->
+
+    <!-- contents start -->
+    <!-- contents-left -->
+    <div class="container">
+        <!--menu list start-->
+        <div class="con_left">
+            <ul class="menu_box">
+                <li class="menu_under">
+                    <div class="menu">
+                        <span>게시판</span>
+                        <!-- <img src="images/menu_arrow.png" alt="arrow"> -->
+                    </div>
+                    <ul class="menuSub">
+                        <li><a href="#">자유게시판</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                        <li><a href="#">조직도</a></li>
+                        <li><a href="#">Q&A</a></li>
+                        <li><a href="#">회의실(일정)</a></li>
+                    </ul>
+                </li>
+                <li class="menu_under">
+                    <div class="menu">
+                        <span>전자결재</span>
+                        <!-- <img src="images/menu_arrow.png" alt="arrow"> -->
+                    </div>
+                    <ul class="menuSub">
+                        <li><a href="#">결재</a></li>
+                        <li><a href="#">공람</a></li>
+                        <li><a href="#">발송/접수</a></li>
+                        <li><a href="#">개인 문서함</a></li>
+                    </ul>
+                </li>
+                <li class="menu_under">
+                    <div class="menu">
+                        <span>팀 커뮤니티</span>
+                        <!-- <img src="images/menu_arrow.png" alt="arrow"> -->
+                    </div>
+                    <ul class="menuSub">
+                        <li><a href="#">팀 게시판</a></li>
+                        <li><a href="#">팀 일정</a></li>
+                        <li><a href="#">라이브 채팅</a></li>
+                        <li><a href="#">주소록</a></li>
+                        <li><a href="#">주간 보고</a></li>
+                    </ul>
+                </li>
+                <li class="menu_under">
+                    <div class="menu">
+                        <span>근퇴관리</span>
+                        <!-- <img src="images/menu_arrow.png" alt="arrow"> -->
+                    </div>
+                    <ul class="menuSub">
+                        <li><a href="#">근태 현황</a></li>
+                        <li><a href="#">급여명세서</a></li>
+                        <li><a href="#">개인 연차 현황</a></li>
+                    </ul>
+                </li>
+                <li class="menu_under">
+                    <div class="menu">
+                        <span>마이페이지</span>
+                        <!-- <img src="images/menu_arrow.png" alt="arrow"> -->
+                    </div>
+                    <ul class="menuSub">
+                        <li><a href="#">내정보</a></li>
+                        <li><a href="#">내가 쓴 글</a></li>
+                        <li><a href="#">메일함</a></li>
+                        <li><a href="#">오늘 할 일</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--menu list end-->
+        <div class="con_middle">
+            <div class="con1"><a href="#">회사 일정</a></div>
+            <div class="con_bottom">
+                <div class="con2"><a href="#">공지사항</a></div>
+                <div class="con3"><a href="#">회의실 현황</a></div>
+            </div>
+        </div>
+        <div class="con_right">
+            <div class="todolist">
+                <h2>TodoList</h2>
+            </div>
+            <div class="weather">
+                <h2>추후 공개</h2>
+            </div>
+        </div>
+    </div>
+    <!-- contents end -->
+    <!-- footer start -->
+    <footer>footer</footer>
+    <!-- footer end -->
+
+</body>
+
+</html>
